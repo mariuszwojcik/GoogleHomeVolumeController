@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PackageId>GoogleHomeVolumeController</PackageId>
+    <Authors>Mariusz Wojcik</Authors>
+    <Company />
+    <Product>GoogleHomeVolumeController</Product>
+    <PackageProjectUrl>https://github.com/mariuszwojcik/GoogleHomeVolumeController</PackageProjectUrl>
+    <PackageIcon>Google Home icon 1.ico</PackageIcon>
+    <ApplicationIcon>C:\code\mariusz\GoogleHomeVolumeController\Google Home icon 1.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Google Home icon 1.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GoogleCast" Version="1.7.0" />
+  </ItemGroup>
+
+</Project>
